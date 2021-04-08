@@ -19,5 +19,11 @@ uvicorn server:app --reload
 ```
 
 ## Heroku 
+go to settings
+
+Config Vars
 Env. variable for tesseract:
 TESSDATA_PREFIX = /app/.apt/usr/share/tesseract-ocr/4.00/tessdata
+
+Buildpacks 
+https://github.com/heroku/heroku-buildpack-apt
