@@ -18,5 +18,6 @@ cd src
 uvicorn server:app --reload
 ```
 
+##Heroku 
 Env. variable for tesseract:
 TESSDATA_PREFIX = /app/.apt/usr/share/tesseract-ocr/4.00/tessdata
